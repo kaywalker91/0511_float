@@ -1,0 +1,60 @@
+@charset "uft-8";
+/* 문서에 최상단에 위치하게 할것 */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 패딩이나 마진을 키우더라도 박스크기가 커지는 걸 막을 수 있다 */
+}
+
+body
+{
+    color: #333;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+/* CSS reset */
+
+#parent
+{
+    overflow: auto;    
+}
+
+#box1
+{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+}
+
+#box2
+{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(63, 196, 85);
+    float: left;
+}
+
+#box3
+{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(187, 35, 111);
+    float: left;
+}
+
+
+
+
